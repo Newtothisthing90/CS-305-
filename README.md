@@ -1,18 +1,14 @@
 # CS 305 Software Security Portfolio
-## Course Overview
-CS 305 Software Security focused on the importance of building secure software and protecting applications from common security risks. Throughout this course, I learned how security must be included during every stage of software development instead of being added later. The course covered secure coding practices, vulnerability assessments, encryption, dependency management, and testing software for weaknesses.
-## Skills and Knowledge Gained
-During this course, I developed hands-on experience using industry tools and security concepts, including:
-- Performing vulnerability assessments on software applications  
-- Using OWASP Dependency-Check to identify outdated or vulnerable libraries  
-- Applying secure coding practices to reduce risk  
-- Implementing SHA-256 checksum verification for data integrity  
-- Configuring HTTPS and SSL certificates for secure communication  
-- Reviewing code for errors and security weaknesses  
-- Testing applications after changes to confirm functionality and security  
-## Artemis Financial Project
-A major project in this course involved working with a fictional client, Artemis Financial. The goal was to improve the security of their software application by identifying vulnerabilities and implementing stronger protections. This project helped me understand how real businesses rely on secure software to protect customer data and maintain trust.
-## Why This Course Matters
-Software security is important because insecure applications can lead to data breaches, financial loss, downtime, and damage to a company’s reputation. This course showed me how developers play a major role in preventing these problems by writing secure code and using the right tools.
-## Career Value
-This course gave me practical knowledge that can be applied to careers in software development, cybersecurity, banking, healthcare, and any industry that depends on secure systems.
+## README Reflection1
+Artemis Financial was a financial services company that wanted to improve the security of its software application. The company needed stronger protection for sensitive client data and secure communication between systems. My role was to review the software, identify security weaknesses, and recommend or implement solutions that would improve the overall security of the application.
+
+One area I did well in was identifying vulnerabilities through code review and automated scanning tools. I used OWASP Dependency-Check to locate outdated libraries and known risks in the project dependencies. Coding securely is important because it helps prevent data breaches, protects customer information, and reduces the chance of system downtime or financial loss. Strong software security adds value to a company by building customer trust, protecting its reputation, and lowering risk.
+
+One challenging part of the vulnerability assessment was understanding how different vulnerabilities connect to real-world threats and deciding which ones should be addressed first. A helpful part of the process was learning how security tools can quickly identify risks that may not be obvious during manual review.
+
+I increased layers of security by applying a defense-in-depth approach. I added HTTPS to encrypt communication, used SHA-256 checksum verification to support data integrity, reviewed dependencies for vulnerabilities, and improved configuration settings. In the future, I would continue using vulnerability scanners, code reviews, penetration testing, and risk-based analysis to determine the best mitigation techniques.
+
+To make certain the software remained functional and secure, I tested the application after making changes and confirmed that all core features still worked correctly. I verified the checksum route functioned properly, confirmed secure browser connections through HTTPS, and reran security scans after refactoring to check for any newly introduced vulnerabilities.
+Some of the most helpful resources and tools I used were Java, Spring Boot, Maven, OWASP Dependency-Check, secure coding practices, debugging methods, and software testing techniques. These tools and practices will continue to be useful in future coursework and professional tasks.
+
+From this assignment, I would show future employers my vulnerability assessment report and secure software improvements. These artifacts demonstrate my ability to identify software risks, apply practical security fixes, test functionality after changes, and use professional tools to strengthen application security.
